@@ -1,0 +1,51 @@
+/* CSS Estilos
+Informacion:
+
+Desarrollado por : Sr Web Moran
+Diseñador gráfico : Mark Morán
+Fecha : Abril 2021
+
+*/
+
+/*
+El uso de *(selector) es aplicarselo a TODO, al inicio de un CSS
+
+Un css  trabaja con:
+
+Reglas
+	Se componen por 2 cosas:
+		Selector {Declaración} (uso de llaves)
+		Este puede ser aplicado a un ID, Clase o Etiqueta
+		La declaración es el etilo
+
+Id -> usar Numeral  #
+Clases -> usar el Punto .
+Etiquetas -> Etiquetas del HTML
+
+*/
+*{
+	/* Reseteo universal*/
+	/*Normalizer.css, leer, investigar para resetear pagina*/
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: #eee;
+	color: #777; /*Se refiere al color del texto, no usar oclor negro intenso*/
+	font-family: Arial;
+	font-size: 100%; /*16px por defecto es el valor*/
+}
+
+h2{
+	color: #31426e;
+	border-bottom: 1px dashed #d8d8d8;
+	letter-spacing: -1px; /*Espaciado entre caracteres*/
+	margin: 5px; /*Margen entre elementos*/
+
+}
+.parrafo{
+	text-align: justify;
+	margin: 20px;
+}
